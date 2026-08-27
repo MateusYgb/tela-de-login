@@ -17,9 +17,10 @@ div#foto {
 div#formulario {
     display: inline-block;
     
-    float: right;
+    margin: auto;
+    
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(20%, -50%);
+    transform: translate(50%, -50%);    
 }
