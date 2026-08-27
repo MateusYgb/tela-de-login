@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+:root {
+    --cor-cor01: #FFFFFF;
+    --cor-cor02: #230647;
+    --cor-cor03: #0C0B4A;
+    --cor-cor04: #230647;
+    --cor-cor05: #460043;
+    --cor-cor06: #4E0E9F;
+}
+
+body {
+    background: linear-gradient(to bottom, var(--cor-cor03), var(--cor-cor05));
+}
+
+main {
+    width: 80vw;
+    height: auto;
+    border-radius: 20px;
+    position: absolute;
+}
+
+div#foto {
+    float: left;
+    width: 50%;
+    border-radius: 20px;
+}
+
+div#formulario {
+    width: 50%;
+    
+    text-align: center;
+    
+    float: right;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-0%, -40%);
+}
